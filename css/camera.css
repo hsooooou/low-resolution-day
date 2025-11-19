@@ -21,7 +21,7 @@ input[type="range"] {
   outline: none;
   appearance: none;
   width: 80%;
-  top: 90vh;
+  top: 80vh;
   left: 10%;
   /* バーの幅 */
   height: 50px;
