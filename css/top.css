@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+body {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+} 
+
+
+/*  */
+/* メインビジュアル */
+.main-visual {
+  width: 100vw;
+  height: 100vh;
+  background: #28282f;
+  /* background-image: url(../img/main-vis/mosaic-demo.png); */
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+.main-vis-logo-sp {
+  top: 200px;
+}
+.main-vis-logo-sp img{
+  position: absolute;
+  height: 80vh;
+  bottom: 0;
+}
+
+
+/*  */
+/* メイン概要文 */
+.day-about {
+  width: 100vw;
+  height: 100vh;
+  padding: 20% 10%;
+  background-image: linear-gradient(150deg, #e4ab22, #eac84e);
+}
+.day-catchcopy {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5vh;
+}
+.day-about-box {
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+
+/*  */
+/* PVエリア */
+.pv-area{
+  width: 100vw;
+  height: 100vh;
+  background: #3f3ff1;
+  padding: 20% 10%;
+}
+.pv-video-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+  background: #3b3b3a;
+  border-radius: 10px;
+  background-image: url(../img/main-vis/mosaic-demo.png);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+.pv-box :hover {
+  opacity: .8;
+  transition: all 0.3s ease;
+}
+.pv-about-text {
+  color: #f9f9f9;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+}
+/* PVモーダルオーバレイ */
+.pv-video-modal-overlay{
+  background-color: #28282f;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: .8;
+}
+.pv-video-modal-overlay.is-active{
+  display: flex;
+}
+/* PVモーダル内 */
+.pv-video-modal {
+  display: none;
+}
+.pv-video-modal button{
+  position: fixed;
+  top: -50px;
+  left: 0;
+
+  font-size: 130px;
+  font-weight: 1;
+  color: #f9f9f9;
+  cursor: pointer;
+  z-index: 12;
+
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.pv-video-modal iframe{
+  width: 90vw;
+  height: 29vh;
+
+  position: fixed;
+  top: 35%;
+  left: 5%;
+
+  border-radius: 20px;
+  z-index: 11;
+}
+.pv-video-modal.is-active{
+  display: flex;
+}
+
+
+/*  */
+/* フッター */
+footer {
+  width: 100vw;
+  height: 100vh;
+  padding: 50% 10%;
+  background: #f9f9f9;
+  justify-content: center;
+  list-style: none;
+}
+.footer-contents {
+  list-style: none;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10vh;
+}
+.footer-sns-icon img{
+  width: 50px;
+  height: 50px;
+  margin-top: 1vh;
+}
+.copy-right {
+  font-size: 10px;
+  margin-top: 15vh;
+}
+
+@media screen and (min-width: 698px) and (max-width: 1024px){
+
+}
+
+@media screen and (min-width: 1025px) {
+body {
+  overflow-x: auto;
+}
+/* .main {
+  display: flex;
+} */
+
+/*  */
+/* メイン概要文 */
+.day-about {
+  padding: 10% 10% 15% 10%;
+}
+.day-catchcopy {
+  font-size: 36px;
+  line-height: 1.5;
+  margin-bottom: 4vh;
+}
+.day-about-box {
+  color: aliceblue;
+  font-size: 24px;
+}
+
+
+/*  */
+/* PVエリア */
+.pv-area {
+  padding: 7% 10%;
+}
+.pv-video-box{
+  width: 80vw;
+  height: 80vh;
+}
+.pv-video-modal button{
+  font-size: 160px;
+}
+.pv-video-modal iframe{
+  top: 11%;
+  height: 80vh;
+}
+
+
+/*  */
+/* フッター */
+footer {
+  padding: 20% 10%;
+}
+.footer img {
+  width: 60vh;
+}
+
+}

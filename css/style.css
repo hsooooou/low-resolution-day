@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hiragino Kaku Gothic", "ヒラギノ角ゴ", メイリオ, Meiryo, "MS Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+::selection {
+  background-color: #daa62b;
+  color: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  list-style: none;
+}
+
+p {
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+
+/* ローディングアニメーション */
+.loading-bg {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+
+    width: 100vw; 
+    height: 100vh;
+
+    background-color: #282830;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    z-index: 200;
+}
+.bar-loader {
+    width: 50vw; 
+    height: 20px;
+    background-color: #f9f9f9;
+    /* border-radius: 100px; */
+    overflow: hidden; position: relative;
+}
+.bar-loader::after {
+    content: ''; position: absolute; top: 0; left: 0;
+    width: 30%; height: 100%;
+    background-color: #e4ab22;
+    /* border-radius: 100px; */
+    animation: bar-slide 1.5s ease-in-out infinite;
+}
+@keyframes bar-slide {
+    0%, 100% { left: 0%; }
+    50% { left: 70%; } 
+}
+
+/* ヘッダー */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+
+/* メニュー */
+.menu-icon {
+  width: 50px;
+  height: 50px;
+
+  background-image: url(../img/btn/burger.svg);
+  background-color: #f9f9f9;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 15px 15px 0 0;
+  border-radius: 100px;
+
+  cursor: pointer;
+
+  z-index: 100;
+}
+.menu-icon-camera {
+  width: 50px;
+  height: 50px;
+
+  background-image: url(../img/btn/camera.svg);
+  background-color: #f9f9f9;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 15px 15px 0 0;
+  border-radius: 100px;
+
+  cursor: pointer;
+
+  z-index: 100;
+}
+
+.menu-icon.is-active {
+  background-image: url(../img/btn/close.svg);
+}
+
+
+.menu-nav {
+  color: #282830;
+  background-color: #f9f9f9;
+
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  align-items: center;
+  justify-content: center;
+
+  z-index: -1;
+  display:none;
+}
+.menu-box {
+ padding: 100px;
+}
+.menu-nav.is-active {
+  display: flex;
+}
+.menu-nav li{
+  margin-bottom: 20px;
+}
+.menu-nav a{
+  color: #282830;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+}
+/* .menu-nav a:hover {
+  color: #f9f9f9;
+  background-color: #282830;
+} */
+.menu-nav a::before {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 1em;
+  content: "";
+  background-color: #a0de26;
+  /* mix-blend-mode: difference; */
+  transition: 0.3s;
+  animation-timing-function: ease-in-out;
+  /* z-index: -1; */
+}
+.menu-nav a:hover::before {
+  width: 69%;
+  color: #282830;
+}
+
+
+
+
+
+
+@media screen and (min-width: 698px) and (max-width: 1024px){
+
+}
+
+@media screen and (min-width: 1025px) {
+
+  .menu-icon {
+    width: 70px;
+    height: 70px;
+    background-size: 55px;
+    margin: 30px 30px 0 0;
+  }
+  .menu-icon-camera {
+    width: 70px;
+    height: 70px;
+    background-size: 55px;
+    margin: 20px 30px 0 0;
+  }
+
+}

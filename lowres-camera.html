@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,viewport-fit=cover">
+  <title>低解像度カメラ</title>
+
+  <link rel="icon" type="image/png" href="./img/icon/favicon_lowres_256.ico" sizes="192x192">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/camera.css">
+
+  <!-- js -->
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="menu-icon" style="bottom: 0;"></div>
+    <div class="menu-nav">
+      <div class="menu-box">
+        <li class="menu-link"><a href="./index.html">Top</a></li>
+        <li class="menu-link"><a href="#">About</a></li>
+        <li class="menu-link"><a href="./index.html#top-pv-area">PV</a></li>
+        <li class="menu-link"><a href="#">Campaign</a></li>
+      </div>
+    </div>
+    <div class="menu-icon-camera"></div>
+  </header>
+
+  <div>
+    <div class="slider-area">
+      <ul><input type="range" id="slider" min="1" max="200" class="input-slider"
+          style="z-index: 9999; position: absolute; ;"></ul>
+    </div>
+
+    <div class="camera-about-area">
+      <div class="video-canvas">
+        <video id="def-camera" autoplay playsinline style="display:none;"></video>
+
+        <!-- <canvas id="lowresCanvas"></canvas> -->
+        <!-- <a href="./index.html">index</a> -->
+      </div>
+      
+      <div class="ca-about-box">
+        <img src="./img/main-vis/mosaic-demo.png">
+        <h2>低解像度カメラとは？</h2>
+        <p>低解像度カメラは、映像をあえて低解像度に変換して表示するウェブアプリケーションです。<br>
+          このアプリケーションを使うことで、日常の映像がぼんやりとしたノイズのある映像に変わり、<br>
+          視覚的なストレスを軽減し、リラックスした気分を促進します。<br>
+          スライダーを動かして、解像度の調整が可能です。<br>
+          ぜひ、低解像度カメラを体験してみてください。</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./js/lowres-camera.js"></script>
+  <script src="./js/nav.js"></script>
+</body>
+
+
+</html>
