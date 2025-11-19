@@ -130,6 +130,48 @@ body {
   display: flex;
 }
 
+/* 
+ */
+ /* SNSキャンペーン */
+ .sns-campaign {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 10% 10%;
+  background-image: linear-gradient(150deg, #000000, #0e0f16 ,#3f3243);
+ }
+ .sns-campaign-title {
+  color: #f9f9f9;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+ }
+ .sns-campaign-hushtag {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: #3f3ff1;
+  font-size: 100px;
+  font-weight: 100;
+
+  /* グラデーション */
+  background-image: linear-gradient(150deg,#3f3ff1,#80a9db);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* ぼかし */
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.sns-campaign-base-text {
+  color: #f9f9f9;
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-top: 10px;
+}
+
 
 /*  */
 /* フッター */

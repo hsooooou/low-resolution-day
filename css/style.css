@@ -10,6 +10,7 @@
 ::selection {
   background-color: #daa62b;
   color: #FFFFFF;
+  transition: .5s ease-in;
 }
 
 html {
@@ -102,10 +103,21 @@ header {
   cursor: pointer;
 
   z-index: 100;
+  transition: 0.5s;
 }
 
 .menu-icon.is-active {
   background-image: url(../img/btn/close.svg);
+}
+.menu-icon:hover {
+  background-color: #a0de26;
+  background-size: 40px;
+  transition: .3s ease-in;
+}
+.menu-icon-camera:hover {
+  background-color: #63a6e5;
+  background-size: 40px;
+  transition: .3s ease-in;
 }
 
 
@@ -155,15 +167,34 @@ header {
   content: "";
   background-color: #a0de26;
   /* mix-blend-mode: difference; */
-  transition: 0.3s;
+  transition: 0.1s;
   animation-timing-function: ease-in-out;
   /* z-index: -1; */
 }
-.menu-nav a:hover::before {
-  width: 69%;
-  color: #282830;
+.menu-nav::before {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  content: "";
+  background-color: #252525;
+  transition: 0.5s;
+  animation-timing-function: ease-in-out;
+  z-index: -5;
 }
-
+.menu-nav :hover::before {
+  width: 69%;
+  background-color: #2c2cb9;
+  mix-blend-mode:screen;
+}
+.menu-nav :hover{
+  background-color: #ff0000;
+  font-size: 100px;
+}
+.menu-nav :hover a  {
+  width: 100%;
+  color: #f9f9f9;
+}
 
 
 
