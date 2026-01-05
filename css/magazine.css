@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+body {
+  background-color: #327fc3;
+}
+
+.maz-title-day {
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+.mgz-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+/*  */
+/* ピックアップ */
+.pickup-table {
+  width: 100%;
+  margin-bottom: 30px;
+  list-style: none;
+
+  background: #ffffff;
+}
+
+.pickup-main {
+  padding: 20px;
+  border-top: .5px solid #707080;
+}
+
+.pickup-main a {
+  text-decoration: none;
+}
+
+.pickup-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+
+}
+
+.pickup-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #707080;
+
+  margin-top: 5px;
+}
+
+.pickup-tag {
+  padding: 5px 10px;
+  font-size: 8px;
+  font-weight: 600;
+
+  color: #ffffff;
+  background-color: #dc685f;
+  border-radius: 100px;
+}
+
+.pickup-tag-2 {
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: 600;
+
+  color: #ffffff;
+  background-color: #e63189;
+  border-radius: 100px;
+}
+
+.pickup-link {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #e63189;
+}
+
+.pickup-link a {
+  color: #ffffff;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pickup-link:hover {
+  background-color: #dc685f;
+}
+
+@media screen and (min-width: 698px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 1025px) {}
