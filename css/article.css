@@ -137,6 +137,68 @@ button {
 }
 
 
+/*  */
+/* エントリー */
+.entry-table {
+  width: 100%;
+  margin-bottom: 30px;
+  list-style: none;
+
+  background: #ffffff;
+}
+.entry-main { 
+  padding: 20px;
+}
+.entry-no {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1;
+}
+.entry-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.entry-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #707080;
+
+  margin-top: 5px;
+}
+.entry-tag {
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: 600;
+  
+  color: #ffffff;
+  background-color: #dc685f;
+  border-radius: 100px;
+}
+.entry-tag-2 {
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: 600;
+  
+  color: #ffffff;
+  background-color: #e63189;
+  border-radius: 100px;
+}
+.entry-link {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #e63189;
+}
+.entry-link a {
+  color: #ffffff;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+.entry-link:hover {
+  background-color: #dc685f;
+}
+
 
 @media screen and (min-width: 698px) and (max-width: 1024px){
 
