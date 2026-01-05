@@ -75,6 +75,67 @@ main {
 }
 
 
+/*  */
+/* ギャラリー */
+.gallery-area {
+  position: relative;
+}
+.gallery-photo {
+  list-style: none;
+
+  padding: 30px;
+  background-color: #ffffff;
+
+  rotate: -1deg;
+  display: none;
+
+   box-shadow: 5px 5px 2px rgba(125, 125, 125, 0.5);
+}
+.gallery-photo img {
+  max-width: 100%;
+  height: auto;
+}
+.gallery-photo.active {
+  display: block;
+}
+button {
+  position: absolute;
+  bottom: 40px;
+  left: 70vw;
+
+  font-size: 20px;
+  font-weight: 900; 
+  padding: 20px;
+  border-radius: 100px;
+  line-height: 1;
+  
+  background-color: #282830;
+  color: #ffffff;
+  border: 0px solid;
+}
+.gallery-onlogo {
+  position: relative;
+  bottom: 90px;
+  max-width: 200px;
+
+  rotate: 5deg;
+}
+
+.fadein {
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes fadein {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
+}
+
 
 
 @media screen and (min-width: 698px) and (max-width: 1024px){
