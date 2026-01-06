@@ -43,6 +43,11 @@ body {
   width: 100%;
   margin-bottom: 30px;
 }
+.mgz-thum-img img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
 
 /*  */
 /* ピックアップ */
@@ -96,15 +101,25 @@ body {
   border-radius: 100px;
 }
 
-.pickup-tag-2 {
+.pickup-tag-02 {
   padding: 5px 10px;
-  font-size: 10px;
+  font-size: 8px;
   font-weight: 600;
 
   color: #ffffff;
-  background-color: #e63189;
+  background-color: #327fc3;
   border-radius: 100px;
   
+}
+
+.pickup-tag-03 {
+  padding: 5px 10px;
+  font-size: 8px;
+  font-weight: 600;
+
+  color: #ffffff;
+  background-color: #8bc658;
+  border-radius: 100px;
 }
 
 .pickup-link {
