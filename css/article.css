@@ -200,6 +200,12 @@ button {
 .entry-link:hover {
   background-color: #dc685f;
 }
+.entry-main img {
+  max-width: 100%;
+  height: auto;
+
+  margin-bottom: 10px;
+}
 
 
 @media screen and (min-width: 698px) and (max-width: 1024px){

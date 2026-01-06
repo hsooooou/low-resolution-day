@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.7 116.7">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #66bbc4;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #97cbee;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #68c4ce;
+        font-family: 'LINESeedJPApp_TTF-Bold', 'LINE Seed JP App_TTF';
+        font-size: 20px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="bg">
+    <circle class="cls-4" cx="58.35" cy="58.35" r="58.35"/>
+  </g>
+  <g id="object">
+    <rect class="cls-3" x="23.03" y="22.9" width="70.65" height="52.25" rx="8.3" ry="8.3"/>
+    <path class="cls-1" d="M92.79,52.91c-.28,13.15-18.67,23.35-33.89,23.41-15.83.06-34.64-10.81-34.63-24.14.01-13.3,18.74-24.25,34.63-24.04,15.74.21,34.17,11.44,33.89,24.77Z"/>
+    <circle class="cls-2" cx="58.9" cy="52.23" r="14.59"/>
+    <line class="cls-2" x1="34.18" y1="24.26" x2="38.74" y2="33.26"/>
+    <line class="cls-2" x1="58.9" y1="18.71" x2="58.9" y2="28.13"/>
+    <line class="cls-2" x1="83.51" y1="24.26" x2="78" y2="33.26"/>
+  </g>
+  <g id="text">
+    <text class="cls-5" transform="translate(25.41 102.12)"><tspan x="0" y="0">LOOK</tspan></text>
+  </g>
+</svg>

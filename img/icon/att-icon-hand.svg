@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.7 116.7">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #327fc3;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #97cbee;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #327fc3;
+        font-family: 'LINESeedJPApp_TTF-Bold', 'LINE Seed JP App_TTF';
+        font-size: 20px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="bg">
+    <circle class="cls-3" cx="58.35" cy="58.35" r="58.35"/>
+  </g>
+  <g id="img">
+    <path class="cls-2" d="M37.78,26.57s-9.55,6.88-15.59,1c0,0,6.03,17.15,0,26.52"/>
+    <path class="cls-2" d="M37.78,26.57s6.75-8.92,6.53-19.39c0,0,5.24,8.46,14.05,8.46,0,0,7.19,2.26,15.52-4.14,0,0,5.6,12.88,15.68,12.54,0,0,5.38,16.13,14.67,14,0,0-9.7,12.77-9.7,24.64"/>
+  </g>
+  <g id="object">
+    <path class="cls-1" d="M22.18,78.31v-22.07c0-3.51,2.85-6.36,6.36-6.36h2.31c3.51,0,6.36,2.85,6.36,6.36v22.07V29.19c0-3.51,2.85-6.36,6.36-6.36h0c3.51,0,6.36,2.85,6.36,6.36v49.11V20.87c0-3.51,2.85-6.36,6.36-6.36h2.08c3.51,0,6.36,2.85,6.36,6.36v57.43V26.65c0-3.51,2.85-6.36,6.36-6.36h2.31c3.51,0,6.36,2.85,6.36,6.36v51.66-42.18c0-3.51,2.85-6.36,6.36-6.36h2.08c3.51,0,6.36,2.85,6.36,6.36v42.18"/>
+  </g>
+  <g id="text">
+    <text class="cls-4" transform="translate(41.27 102.12)"><tspan x="0" y="0">OK</tspan></text>
+  </g>
+</svg>

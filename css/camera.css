@@ -46,21 +46,115 @@ input[type="range"]::-webkit-slider-thumb {
   position: relative;
   width: 100%;
   height: 100vh;
+  
+  background: #d9ff00;
 }
 
 video {
   z-index: -100;
 }
+.video-canvas {
+  width: 10000px;
+}
 
 canvas {
-  z-index: -100;
+  z-index: -99;
   height: 100vh;
   width: auto;
+
+  
+  transform: translateX(-20%) ;
 }
 
 /* カメラ説明エリア */
-.ca-about-box {
-  position: fixed;
-  background-color: #282830;
-  z-index: 100;
+.camera-about-area {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
+
+
+
+.ca-about-box {
+  display: none;
+  /* background-color: #f9f9f9; */
+  opacity: 1;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 21.2vw;
+  padding: 30px 80px;
+  height: 100%;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.ca-about-box-r {
+  display: none;
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 30vh;
+  width: 18vw;
+  padding: 50px;
+  height: 100%;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.ca-about-text {
+  margin: 5px 0 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.ca-about-subtext {
+  margin: 5px 0 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ca-logo {
+  display: none;
+  position: absolute;
+  bottom: 3vh;
+  left: 1vw;
+  width: 250px;
+  rotate: 10deg;
+}
+
+
+def-camera {
+  position: absolute;
+}
+
+@media screen and (min-width: 698px) and (max-width: 1024px){
+  canvas {
+    transform: translateX(6%) ;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+ canvas {
+  transform: translateX(33%) ;
+ }
+ .ca-about-box {
+  display: block;
+ }
+ .ca-about-box-r {
+  display: block;
+ }
+ .ca-logo {
+  display: block;
+ }
+
+}
+
