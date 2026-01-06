@@ -27,6 +27,10 @@ body {
   line-height: 1.2;
   text-align: justify;
 }
+.mgz-sec-t2 {
+  font-size: 18px;
+  font-weight: 600;
+}
 .mgz-sec-maintext {
   font-size: 16px;
   font-weight: 400;
@@ -59,6 +63,12 @@ body {
   text-decoration: none;
 }
 
+.pickup-day {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+}
 .pickup-title {
   font-size: 14px;
   font-weight: 700;
@@ -101,6 +111,20 @@ body {
   text-align: center;
   padding: 10px 20px;
   background-color: #e63189;
+}
+.pickup-link-box {
+  background-color: #327fc3;
+  padding:10px 20px ;
+  font-size: 12px;
+  font-weight: 500;
+}
+.pickup-link-box a p {
+  color: #ffffff;
+}
+.pickup-link-box-in {
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
 }
 
 .pickup-link a {
